@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+   background-repeat: no-repeat;
+    height: 8vh;
+   background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+nav ul {
+    opacity: 80%;
+    background-color: black;
+    padding: 20px;
+    text-align:center;
+    font-size: 1.1em;
+}
+
+ul {
+    float:right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    position: static;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+
+
+.logo img{
+    float:left;
+    width: 112px;
+    height: auto;
+}
+
+#active{
+    border:2px solid rgb(179, 21, 147);
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+ .games
+{
+background-color: rgb(0, 0, 0);
+ text-align: center;
+ border: 2px solid rgb(203, 20, 213);
+ padding-top: 50px;
+ padding-right: 50px;
+ padding-bottom: 50px;
+ padding-left: 80px;
+ border-radius: 1px;
+ margin: auto;
+}
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: center;
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer {
+    padding: 1%;
+    margin: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: black
+    
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}

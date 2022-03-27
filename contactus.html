@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!----These are comments
+Author - Jack Monaghan
+Date Created Feb 17 2022
+Purpose : Home Page-->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta charset="utf-8" /> <!---8-bit character encoding capable of encoding all characters-->
+    <meta name="description" content="Contact us, send a query">
+    <meta name="keywords" content="Contact, Query, Email">
+    <link rel="stylesheet" type="text/css" href="stylecontactus.css">
+    </head>
+
+    <body background="images/pic.jpg"></body>     <!--Body Tag Start of Body Section display on screen -->
+    <header>
+        <section>
+        <div class="logo">
+             <img src="images/logo.png">
+         </div>
+         <nav>
+         <ul>
+            <li><a href="index.html">HOME</a></li>    
+            <li><a href="games.html">COMING SOON</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li id="active"><a href="contactus.html">CONTACT US</a></li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+    </section>
+
+
+
+</head>
+<body> <!--Body Tag Start of Body Section display on screen -->
+    <header>
+        <p>Any queries or feedback please Complete and</p>
+    </header>
+<main>          
+    <section>
+        <h3>Please enter the following information:</h3>
+        <form action="http://year1.ccpdev.me/FormTest.php" method = "post">
+
+        <label for="first_name">First name:<span class="required">*</span></label>
+        <input type="text" name="first_name" id="first_name" autofocus required><br>
+        <label for = "Last_name">Last name:<span class = "required">*</span></label>
+        <input type ="text" name ="last_name" id = "last_name" required><br>
+        <label for="email">Email:<span class="required">*</span></label>
+        <input type="email" name="email" id="email" required placeholder="johndoe@example.com">
+        <br>
+
+        <label for ="gender">Gender:</label>
+        <input type ="radio" id ="gender" name="gender" value="male"> Male
+        <input type ="radio" id="gender" name = "gender" value ="female"> Female 
+        <fieldset>
+        <input type="checkbox" id="internet" name="internet" value="Question" checked> General Question <br>
+        <input type ="checkbox" class="marginl"id="hearr" name="Issue" value ="paper"> Issue Regarding a Game <br>
+        <input type ="checkbox" class="marginl"id="hear" name="Add" value ="Add">Other<br>
+        </fieldset>
+        <br>
+        <label gor="message">Query:</label>
+
+        <textarea cols="48"rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters"
+        data-maxlength="200"></textarea> <br>
+
+        <input type ="submit" name ="submit" id="button" value="Submit">
+        <input type ="reset" name="reset" id="reset">
+
+        </form>
+        <p style="margin-left: 138px"> <span class="required">*</span> <em>Indicates a required field</em> </p>
+    </section>
+
+
+
+
+</main>
+</body>
+
+</html>
